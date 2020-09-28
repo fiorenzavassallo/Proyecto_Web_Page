@@ -1,0 +1,132 @@
+﻿/*Definición de Estilos*/
+font-family 
+/*Características básicas para el head de la página principal*/
+head{width: 600px;
+    height: 250px;
+    color:black;
+    background-color:grey;
+    font: size 50px;
+    margin:auto;
+    text-align:center;
+    list-style: auto 200px;;
+    border:gray;
+
+}
+/*Características básicas para el body de la página principal*/
+body{
+
+            width: 600px;
+            height: 250px;
+            color:blue;
+            background-color:grey;
+            font: size 50px;
+            margin:auto;
+            text-align:center;
+            list-style: auto 200px;;
+            border:gray;
+        }
+/*Características para destacar mi nombre dentro de la página principal*/
+#florcita{
+    color: palevioletred;
+    font: size 550px;
+    
+/*Características para destacar el h1 de la página principal*/
+}
+h1{
+    color: blueviolet;
+    font: size 90px;
+    
+
+}
+/*Características para armar el box celeste de estudios fuera*/
+#estudios_fuera{
+    text-align: center;
+    border:1 px violet;
+    padding-top: 15px;
+    padding-right:30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: lightblue;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Características con las fotos*/
+#foto_sello{
+float: right;
+}
+#foto_apostilla{
+float:left;
+}
+#contrato{
+
+}
+/*Características para armar el box rosado que contiene la tabla con los horarios*/
+#horarios_atención{
+    text-align: center;
+    border:1 px greenyellow;
+    color: rgb(95, 3, 95);
+    padding-top: 5px;
+    padding-right:20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background-color: pink;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*Características del footer de la página principal*/
+footer{
+    color:blue;
+    font-weight: bold;
+
+}
+/*Características del formulario de nuevos socios del estudio de traducción */
+#formulario{
+    text-align:center;
+    background-color: greenyellow;
+    color: violet;
+    size: 40px;
+
+
+}
+/*Flexbox para curriculum vitae*/
+.contenedor_cv{
+    display:flex;
+    flex-direction:column;
+
+
+}
+/*Características de la página de informaciones útiles */
+#fondo_informaciones_útiles{
+    text-align: center;
+    size: 100px;
+    background-color:pink;
+    color: yellow 
+}
+/*Características de la página del formulario de contacto */
+
+#fondo_formulario{
+    size: 40px;
+    background-position: 0%;
+    background-color: lightslategray;
+    color: blue;
+
+}
+
+/* Animación de fotografías de formulario de contacto de nuevos socios y de foro personal de cv */
+.img-hover-zoom {
+    height: 300px; /* Seteado inicial */
+    overflow: hidden; /* Ocultar el overflowing de los elementos hijos */
+  }
+  
+  /* [2] Porpiedad de transición para suavizar la transformación de las imágenes */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Último paso, transforma la imagen cuando el container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
